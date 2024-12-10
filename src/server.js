@@ -18,8 +18,7 @@ export const setupServer = () => {
   app.use(express.json());
   app.use(
     cors({
-      origin:
-        'https://contact-app-front-142j-h3iuvxkc9-erpokks-projects.vercel.app',
+      origin: 'https://contact-app-front-xi.vercel.app/',
       credentials: true,
     }),
   );
